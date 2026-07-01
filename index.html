@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furina Memory Game</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">Furina Memory</p>
+      <h1>Match the royal signals.</h1>
+      <div class="hud">
+        <span>Moves <strong id="moves">0</strong></span>
+        <span>Matches <strong id="matches">0</strong></span>
+        <button id="restart">Restart</button>
+      </div>
+    </header>
+    <section id="board" class="board" aria-live="polite"></section>
+    <p id="status" class="status">Choose two cards.</p>
+  </main>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
